@@ -1,8 +1,9 @@
 img{
-    height: auto;
+    height: 200px;
     width: 300px;
     border-radius: 15%;
     margin: 10px;
+    
 }
 
 th{
