@@ -133,15 +133,15 @@ function agregarPais() {
         let tabla1 = "";
 
         for (let i = 0; i < 1; i++) {
-            tabla1 += `<table><thead><th>Nombre:</th><th>Capital:</th><th>Idioma:</th><th>Moneda:</th></thead><tbody><tr>
+            tabla1 += `<thead><th>Nombre:</th><th>Capital:</th><th>Idioma:</th><th>Moneda:</th></thead><tbody><tr>
             <td>${paises[0].nombre1}</td>
             <td>${paises[0].capital1}</td>
             <td>${paises[0].idioma_oficial1}</td>
             <td>${paises[0].moneda1}</td>
-            </tr></tbody><tfoot><tr><td colspan="4"><img src="${paises[0].bandera1}" alt="Imagen_bandera"></td></tr><tfoot></table>`;
+            </tr></tbody><tfoot><tr><td colspan="4"><img src="${paises[0].bandera1}" alt="Imagen_bandera"></td></tr><tfoot>`;
 
         }
-        document.getElementById('nuevo').innerHTML += tabla1;
+        document.getElementById('nuevo1').innerHTML += tabla1;
 
     }
 }

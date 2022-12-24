@@ -1,3 +1,5 @@
+
+
 img{
     height: 200px;
     width: 300px;
@@ -11,6 +13,6 @@ th{
 }
 tr, td{
     font-size: 1.5rem;
-    border: 1px solid black;
+   
 }
 
